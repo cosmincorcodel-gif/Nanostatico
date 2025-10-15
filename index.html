@@ -10,63 +10,106 @@
     <title>Portafoglio di Nano Stitico</title>
     <link rel="stylesheet" href="Nanostatico.css">
     <link rel="icon" href="fav.ico" type="image/x-icon">
-    <style>
-          body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-        }
-        nav a {
-            padding: 15px;
-            text-decoration: none;
-            color: white;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-        }
-        .project {
-            background-color: #e1e1e1;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-        }
-        .project img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
+   <style>
+    /* Global styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1a1a1a; /* Background scuro */
+        color: #e1e1e1; /* Testo chiaro per contrasto */
+    }
+
+    header {
+        background-color: #333; /* Grigio scuro */
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #222; /* Ancora più scuro per la navbar */
+    }
+
+    nav a {
+        padding: 15px;
+        text-decoration: none;
+        color: #ddd; /* Testo chiaro nei link */
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: #444; /* Colore più chiaro quando hover */
+        color: #f0a500; /* Giallo ocra per accento */
+    }
+
+    section {
+        padding: 20px;
+        margin: 20px;
+        background-color: #2a2a2a; /* Background più chiaro per le sezioni */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    /* Progetti */
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .project {
+        background-color: #444; /* Grigio scuro per i progetti */
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    .project:hover {
+        transform: scale(1.05); /* Leggera animazione di ingrandimento */
+    }
+
+    .project h3 {
+        color: #f0a500; /* Giallo ocra per i titoli */
+        margin-top: 10px;
+    }
+
+    .project p {
+        color: #ddd; /* Testo chiaro per la descrizione */
+    }
+
+    /* Link e accenti */
+    a {
+        color: #f0a500; /* Giallo ocra per i link */
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff; /* Bianco per il colore del link quando hover */
+    }
+
+    /* Sezioni aggiuntive */
+    .testimonials p {
+        color: #ddd;
+        font-style: italic;
+    }
 </style>
 </head>
 <body>
@@ -140,5 +183,6 @@
     </footer>
 </body>
 </html>
+
 
 
